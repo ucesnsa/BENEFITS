@@ -14,7 +14,8 @@ True value of social services
 
 Policymakers lack evidence and tools to demonstrate what works.
 The Solution
-New frameworks and platforms that measure social services based on prosperity, wellbeing, and inclusion.
+New frameworks and platforms that measure social services based on prosperity, well-being, and inclusion.
+
 Key Activities
 📊 New valuation methods — Move beyond cost to measure real-world impact
 🛠️ Evidence platforms — Tools for data-driven policy decisions
