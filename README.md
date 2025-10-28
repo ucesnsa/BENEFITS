@@ -1,21 +1,22 @@
-BENEFITS is a European Horizon project working to transform how we understand and evaluate social services.
-🔗 Learn more at benefitsproject.eu
+BENEFITS
+A European Horizon project transforming how social services are understood and evaluated.
+🔗 benefitsproject.eu
 
-What We Do
-We're building better ways to measure social services — not just by their cost, but by their real impact on people's lives, communities, and the environment.
+Overview
+Building measurement systems that assess social services by their real impact — not just cost.
+The Problem
+GDP measures economic growth, but doesn't capture:
 
-Why This Matters
-Traditional economic measures like GDP tell us how economies grow, but they don't tell us:
+Quality of life
+Community wellbeing
+Environmental impact
+True value of social services
 
-How people actually live
-Whether social services are improving wellbeing
-What truly makes communities thrive
-
-The problem: We know social services make a difference, but policymakers often lack the evidence and tools to prove it.
-The solution: BENEFITS fills that gap by providing decision-makers with the evidence and frameworks they need to design fairer, more effective policies.
-
-Our Goals
-✨ Value beyond cost — Develop new methods for measuring social services based on their impact on prosperity, wellbeing, and inclusion
-🛠️ Practical tools — Create platforms that help local councils and governments make evidence-based decisions
-🌍 Real-world testing — Run pilot programs in communities to test and refine improvements
-📚 Building capacity — Train service providers and policymakers to use these tools effectively
+Policymakers lack evidence and tools to demonstrate what works.
+The Solution
+New frameworks and platforms that measure social services based on prosperity, wellbeing, and inclusion.
+Key Activities
+📊 New valuation methods — Move beyond cost to measure real-world impact
+🛠️ Evidence platforms — Tools for data-driven policy decisions
+🌍 Community pilots — Test improvements in real settings
+📚 Capacity building — Training for effective implementation
