@@ -2,6 +2,9 @@ import matplotlib.pyplot as plt
 import geopandas as gpd
 import matplotlib.patches as mpatches
 from pyproj import CRS
+import os
+from datetime import datetime
+from pathlib import Path
 
 # Load world map data and filter for Europe
 try:
@@ -105,19 +108,18 @@ ax.set_facecolor('white')
 # Adjust layout
 plt.tight_layout()
 
-# Create a folder for figures if it doesn't exist
-import os
-from datetime import datetime
+# ==========================================
+# NEW: Updated folder path for new structure
+# ==========================================
 
-# Define the folder path
-figures_folder = 'figures'  # This will create a 'figures' folder in your BENEFITS directory
+# Get the script's directory and navigate to outputs/maps
+script_dir = Path(__file__).parent  # 0_Project_Overview/scripts/
+project_root = script_dir.parent.parent  # BENEFITS/
+figures_folder = project_root / "0_Project_Overview" / "outputs" / "maps"
 
 # Create the folder if it doesn't exist
-if not os.path.exists(figures_folder):
-    os.makedirs(figures_folder)
-    print(f"Created folder: {figures_folder}")
-else:
-    print(f"Folder already exists: {figures_folder}")
+figures_folder.mkdir(parents=True, exist_ok=True)
+print(f"Saving figures to: {figures_folder}")
 
 # Generate filename with timestamp (optional, for unique names)
 timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
@@ -126,8 +128,8 @@ filename = f"europe_participant_map_{timestamp}.png"
 # Or use a simple filename (uncomment this line if you prefer)
 # filename = "europe_participant_map.png"
 
-# Full path for saving
-save_path = os.path.join(figures_folder, filename)
+# Full path for saving (UPDATED to use Path)
+save_path = figures_folder / filename
 
 # Save the figure
 plt.savefig(save_path, dpi=300, bbox_inches='tight', facecolor='white')
